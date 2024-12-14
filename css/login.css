@@ -1,0 +1,101 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background styling */
+.background-container {
+    background: url('../resources/background.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(40%);
+}
+
+/* Login box styling */
+.login-container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 320px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input group styling */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input-group .icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+}
+/* Show password checkbox styling */
+.input-group #showPassword {
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    color: #888;
+    transition: color 0.3s;
+}
+.input-group #showPassword:hover {
+    color: #555;
+}
+/* Forget password and remember me styling */
+.forgetAndRemeber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.remeberDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Login button styling */
+.login-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+    background: linear-gradient(to right, #ff3f51, #ffae42);
+}

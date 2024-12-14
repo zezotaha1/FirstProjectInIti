@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="login-container">
+            <h2>LOGIN</h2>
+            <form>
+                <div class="input-group">
+                    <span class="icon">👤</span>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <span class="icon">🔒</span>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <span class="icon" id="showPassword">👁️</span>
+                </div>
+                <div class="forgetAndRemeber">
+                    <div class="remeberDiv">
+                        <input type="checkbox" id="remember" ><h6><label for="remember">Remember me</label></h6>
+                    </div>
+                    <h6><a href="./forgotPassword.html">Forgot Password</a></h6>
+                </div>
+                <button type="submit" class="login-btn">LOGIN</button>
+            </form>
+            <br>
+
+            <h6>
+                Don't have an accouunt? <a href="./signup.html">Sign up</a>
+            </h6>
+        </div>
+    </div>
+    <script src="./scripts/login.js"></script>
+</body>
+</html>
