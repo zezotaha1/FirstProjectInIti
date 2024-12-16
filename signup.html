@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <span class="icon" id="showPassword">👁️</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <div class="input-group">
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                <span class="icon" id="showconfirm-password">👁️</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="birthdate">Birthdate</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <div class="gender-options">
+                <div class="gender-option">
+                    <input type="radio" id="gender-male" name="gender" value="male" required checked> 
+                    <label for="gender-male">Male</label>
+                </div>
+                <div class="gender-option">
+                    <input type="radio" id="gender-female" name="gender" value="female" required> 
+                    <label for="gender-female">Female</label>
+                </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" id="terms" name="terms" required>
+              I agree to the <a href="#">terms and conditions</a>
+            </label>
+          </div>
+          <button type="submit" class="signup-btn">Sign Up</button>
+        </form>
+        <div class="footer-text">
+          Already have an account? <a href="./login.html">Log In</a>
+        </div>
+      </div>
+    <script src="./scripts/signup.js"></script>
+</body>
+</html>
