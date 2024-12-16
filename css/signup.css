@@ -122,14 +122,14 @@ body {
     padding: 10px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #0056b3;
+    background: linear-gradient(to right, #7b84d8, #8f8e8e);
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .signup-btn:hover {
-    background-color: #004099;
+    background: linear-gradient(to right, #2c38a1, #57555e);
 }
 
 .footer-text {
