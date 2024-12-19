@@ -219,3 +219,20 @@ header #header-righy .secondary-btn {
 }
 
 /* end home  */
+/*footer start */
+#footer .card-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  gap:20px
+
+}
+
+#footer .card-text svg:hover {
+  color: rgb(14, 176, 25);
+}
+ /*footer end */
