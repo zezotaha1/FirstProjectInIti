@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Jason Doe",
+      "image": "./assets/images/th.jpg",
+      "content": "This platform enables entrepreneurs to start their own businesses without any of the constraints imposed by the real-world market."
+    },
+    {
+      "name": "Dave Wood",
+      "image": "./assets/images/pexels-photo-1270076.webp",
+      "content": "You don’t need significant capital, an office, or warehouses. You can establish many companies as you need, as long as you are able to manage."
+    },
+    {
+      "name": "Matt Demon",
+      "image": "./assets/images/pexels-photo-3211476.webp",
+      "content": "Offer integrated services such as accounting, advertising, and helping virtual companies grow and expand without large investments."
+    },
+    {
+      "name": "Jimmy Kimmel",
+      "image": "./assets/images/pexels-photo-3525908.webp",
+      "content": "Automate repetitive business tasks such as invoicing, and inventory management, allowing users to focus on scaling their businesses.",
+      "rating": 5
+    },
+    {
+      "name": "Hossam",
+      "image": "./assets/images/pexels-photo-5042302.webp",
+      "content": "Automated scheduling of tasks, meetings, and other business operations to increase productivity and reduce time management stress.",
+      "rating": 5
+    },
+    {
+      "name": "Jason Doe",
+      "image": "./assets/images/th.jpg",
+      "content": "This platform enables entrepreneurs to start their own businesses without any of the constraints imposed by the real-world market."
+    },
+    {
+      "name": "Dave Wood",
+      "image": "./assets/images/pexels-photo-1270076.webp",
+      "content": "You don’t need significant capital, an office, or warehouses. You can establish many companies as you need, as long as you are able to manage."
+    },
+    {
+      "name": "Matt Demon",
+      "image": "./assets/images/pexels-photo-3211476.webp",
+      "content": "Offer integrated services such as accounting, advertising, and helping virtual companies grow and expand without large investments."
+    },
+    {
+      "name": "Jimmy Kimmel",
+      "image": "./assets/images/pexels-photo-3525908.webp",
+      "content": "Automate repetitive business tasks such as invoicing, and inventory management, allowing users to focus on scaling their businesses.",
+      "rating": 5
+    },
+    {
+      "name": "Hossam",
+      "image": "./assets/images/pexels-photo-5042302.webp",
+      "content": "Automated scheduling of tasks, meetings, and other business operations to increase productivity and reduce time management stress.",
+      "rating": 5
+    }
+  ]
+  

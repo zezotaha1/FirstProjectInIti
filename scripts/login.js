@@ -73,7 +73,7 @@ function showError(inputId, message) {
         errorElement.style.fontWeight = "bold";
         errorElement.style.textAlign = "start";
         errorElement.style.marginBottom = "10px";
-        inputElement.parentElement.parentElement.appendChild(errorElement);
+        inputElement.parentElement.parentElement.append(errorElement);
     }
 
     errorElement.textContent = message;
