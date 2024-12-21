@@ -1,4 +1,4 @@
-window.addEventListener("load",async ()=>{
+document.getElementById("companies").addEventListener("sectionEnter",async ()=>{
     displayCompanies(await fetchCompanies());
 });
 async function fetchCompanies() {
@@ -24,7 +24,7 @@ function displayCompanies(companies) {
                 <h3>${company.name}</h3>
                 <p class="Founded">Founded in :${company.createdAt}</p>
                 <p class="Specialization">Specialization: ${company.specialization}</p>
-                <a href="/company.html?id=${company.id}"><button>View Detailsy</button></a>
+                <a href="/#company-details?id=${company.id}"><button>View Detailsy</button></a>
             </div>
             `;
         companiesDiv.appendChild(companyDiv);
